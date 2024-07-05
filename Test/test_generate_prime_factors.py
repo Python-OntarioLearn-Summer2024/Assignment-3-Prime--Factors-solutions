@@ -25,3 +25,12 @@ when it is called with a integer value of 1 argument.
 def test_generate_prime_factors_called_with_1_empty_list_returned():
     my_test_null_list = []
     assert my_test_null_list == prime.generate_prime_factors(1)
+"""
+    Step 3. Test ensures generate_prime_factors returns the [2] list
+    when it is called with a integer value of 2 argument.
+"""
+def test_generate_prime_factors_called_with_2_list_with_2_returned():
+    my_test_list = [2]
+    assert my_test_list == prime.generate_prime_factors(2)
+
+
