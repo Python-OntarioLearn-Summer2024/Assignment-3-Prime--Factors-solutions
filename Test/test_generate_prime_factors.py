@@ -44,3 +44,14 @@ def test_generate_prime_factors_called_with_3_list_with_3_returned():
     my_test_list = [3]
     assert my_test_list == prime.generate_prime_factors(3)
 
+"""
+Step 5. Test ensures generate_prime_factors returns the [2, 2] list
+when it is called with a integer value of 4 argument.
+"""
+
+
+def test_generate_prime_factors_called_with_4_list_with_2_2_returned():
+    my_test_list = [2, 2]
+    assert my_test_list == prime.generate_prime_factors(4)
+
+
