@@ -74,3 +74,13 @@ when it is called with a integer value of 8 argument.
 def test_generate_prime_factors_called_with_8_list_with_2_2_2_returned():
     my_test_list = [2, 2, 2]
     assert my_test_list == prime.generate_prime_factors(8)
+
+"""
+Step 8. Test ensures generate_prime_factors returns the [3, 3] list
+when it is called with a integer value of 9 argument.
+"""
+
+
+def test_generate_prime_factors_called_with_9_list_with_3_3_returned():
+    my_test_list = [3, 3]
+    assert my_test_list == prime.generate_prime_factors(9)
