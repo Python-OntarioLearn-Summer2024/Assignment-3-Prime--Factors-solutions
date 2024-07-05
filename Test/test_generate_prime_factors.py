@@ -17,3 +17,11 @@ def test_data_type_not_integer_value_error_raised():
         prime.generate_prime_factors(my_string)
     with pytest.raises(ValueError):
         prime.generate_prime_factors(my_float)
+
+"""
+Step 2. Test ensures generate_prime_factors returns an empty list
+when it is called with a integer value of 1 argument.
+"""
+def test_generate_prime_factors_called_with_1_empty_list_returned():
+    my_test_null_list = []
+    assert my_test_null_list == prime.generate_prime_factors(1)
